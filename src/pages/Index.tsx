@@ -10,7 +10,7 @@ import Footer from "@/components/Footer";
 const Index = () => {
   useEffect(() => {
     // Update document title and meta tags for SEO
-    document.title = "Astrologer Jyotish Chetan Oli - Best Astrologer in Jhapa, Nepal | Online Astrology Services";
+    document.title = "Best Astrologer in Jhapa | Jyotish Chetan Oli | Online Jyotish Birtamode";
     
     // Update meta description
     const metaDescription = document.querySelector('meta[name="description"]');

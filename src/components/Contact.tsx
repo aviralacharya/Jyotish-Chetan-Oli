@@ -21,7 +21,7 @@ const Contact = () => {
   };
 
   const handleFacebook = () => {
-    window.open('https://www.facebook.com', '_blank');
+    window.open('https://www.facebook.com/jyotishchetanoli/', '_blank');
   };
 
   const handleGoogleMaps = () => {

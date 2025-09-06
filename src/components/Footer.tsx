@@ -14,7 +14,7 @@ const Footer = () => {
   };
 
   const handleFacebook = () => {
-    window.open('https://www.facebook.com', '_blank');
+    window.open('https://www.facebook.com/jyotishchetanoli/', '_blank');
   };
 
   return (
@@ -142,7 +142,7 @@ const Footer = () => {
           </p>
         
           <br />
-           <h4>Developed by <a href="http://aviralacharya.com.np">Abiral Acharya</a>
+           <h4>Developed by <a href="http://aviralacharya.com.np" target="_blank">Abiral Acharya | Developer, SEO Person From Nepal</a>
             </h4> 
         
         </div>

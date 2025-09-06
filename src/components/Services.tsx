@@ -19,28 +19,28 @@ const Services = () => {
       title: "Horoscope Reading",
       description: "Complete birth chart analysis revealing your personality, strengths, and life path.",
       features: ["Birth Chart Analysis", "Personality Insights", "Life Path Guidance", "Future Predictions"],
-      price: "Starting from NPR 2,000"
+      // price: "Starting from NPR 2,000"
     },
     {
       icon: Calendar,
       title: "Kundali Analysis", 
       description: "Detailed Kundali matching and analysis for life decisions and compatibility.",
       features: ["Complete Kundali Preparation", "Dosh Analysis", "Remedy Suggestions", "Muhurat Selection"],
-      price: "Starting from NPR 3,000"
+      // price: "Starting from NPR 3,000"
     },
     {
       icon: Heart,
       title: "Marriage Compatibility",
       description: "Comprehensive compatibility analysis for successful and harmonious relationships.",
       features: ["Guna Matching", "Manglik Analysis", "Compatibility Score", "Wedding Date Selection"],
-      price: "Starting from NPR 2,500"
+      // price: "Starting from NPR 2,500"
     },
     {
       icon: Briefcase,
       title: "Career & Business Astrology",
       description: "Professional guidance for career choices and business success through cosmic insights.",
       features: ["Career Path Analysis", "Business Timing", "Success Periods", "Professional Growth"],
-      price: "Starting from NPR 3,500"
+      // price: "Starting from NPR 3,500"
     }
   ];
 
@@ -81,9 +81,9 @@ const Services = () => {
                       <CardTitle className="text-xl text-foreground group-hover:text-primary transition-mystical">
                         {service.title}
                       </CardTitle>
-                      <Badge variant="outline" className="mt-1 text-xs">
+                      {/* <Badge variant="outline" className="mt-1 text-xs">
                         {service.price}
-                      </Badge>
+                      </Badge> */}
                     </div>
                   </div>
                   <p className="text-muted-foreground leading-relaxed">

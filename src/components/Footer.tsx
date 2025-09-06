@@ -109,7 +109,7 @@ const Footer = () => {
                   onClick={handlePhoneCall}
                   className="text-muted-foreground hover:text-primary transition-mystical"
                 >
-                  +977-9814044138/ 9824036543
+                9814044138 | 9824036543
                 </button>
               </div>
               <div className="flex items-center space-x-3">
@@ -118,7 +118,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-primary" />
-                <span className="text-muted-foreground">contact@jyotishchetan.com</span>
+                <span className="text-muted-foreground">chetanoli7090@gmail.com</span>
               </div>
             </div>
 
@@ -140,9 +140,11 @@ const Footer = () => {
           <p className="text-muted-foreground text-sm">
             Copyright © 2025 - Astrologer Jyotish Chetan Oli. All rights reserved.
           </p>
-          <p className="text-muted-foreground text-xs mt-2">
-            Best Astrologer in Jhapa • Astrology in Nepal • Jyotish in Birtamode • Online Astrology Services Nepal
-          </p>
+        
+          <br />
+           <h4>Developed by <a href="http://aviralacharya.com.np">Abiral Acharya</a>
+            </h4> 
+        
         </div>
       </div>
     </footer>

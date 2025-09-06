@@ -2,19 +2,19 @@ import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Eye } from "lucide-react";
 import officeImage from "@/assets/jyotish-chetan-oli.jpg";
-import consultationImage from "@/assets/jyotish-chetan-oli.jpg";
-import parishadImage from "@/assets/jyotish-chetan-oli.jpg";
-import booksImage from "@/assets/jyotish-chetan-oli.jpg";
-import weddingImage from "@/assets/jyotish-chetan-oli.jpg";
-import workshopImage from "@/assets/jyotish-chetan-oli.jpg";
+import consultationImage from "@/assets/Jyotish Chetan Oli Consulting.jpg";
+import parishadImage from "@/assets/Jyotish Chetan Oli Speech.jpg";
+import sessionImage from "@/assets/Jyotish Chetan Oli Profile.jpg";
+import AstrologersMeeting from "@/assets/Jyotish Chetan Oli Appreciated.jpg";
+import serviceImage from "@/assets/Jyotish Chetan Oli Services.jpg";
 
 const Gallery = () => {
   const galleryItems = [
     {
       image: officeImage,
-      category: "Office",
+      category: "In House",
       title: "Consultation Chamber",
-      description: "Modern astrological consultation setup with traditional elements"
+      description: "In house modern astrological consultation setup with traditional elements"
     },
     {
       image: parishadImage,
@@ -29,22 +29,22 @@ const Gallery = () => {
       description: "Detailed horoscope reading and guidance session"
     },
     {
-      image: weddingImage,
+      image: AstrologersMeeting,
       category: "Ceremonies",
-      title: "Marriage Compatibility Ceremony",
-      description: "Traditional muhurat selection and compatibility analysis"
+      title: "Astrologers meetup back in 2007",
+      description: "Jyotish events where astrolgers were recognized"
     },
     {
-      image: booksImage,
-      category: "Resources",
-      title: "Astrology Library",
-      description: "Ancient Vedic texts and manuscripts collection"
+      image: sessionImage,
+      category: "Consultation",
+      title: "Virtual Consulatation",
+      description: "Jyotish Chetan Oli from Jhapa providing services virtually"
     },
     {
-      image: workshopImage,
-      category: "Education",
-      title: "Astrology Workshop",
-      description: "Teaching traditional Vedic wisdom to new practitioners"
+      image: serviceImage,
+      category: "Services",
+      title: "Here's the services Jyotish Chetan Oli provides",
+      description: "From career guidance to love relationship and more"
     }
   ];
 

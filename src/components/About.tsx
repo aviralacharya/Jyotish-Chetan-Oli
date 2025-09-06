@@ -41,7 +41,7 @@ const About = () => {
           <div className="space-y-8">
             <div>
               <h3 className="text-2xl font-bold text-primary mb-4">
-                President, Jhapa District Nepal Jyotish Parishad
+                President- Nepal Jyotish Parishad, Jhapa District
               </h3>
               <p className="text-lg text-muted-foreground leading-relaxed mb-6">
                 With over 15 years of dedicated practice in Vedic astrology, Jyotish Chetan Oli has established 

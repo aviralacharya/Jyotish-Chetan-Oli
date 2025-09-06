@@ -154,6 +154,24 @@ const Contact = () => {
                   </div>
                 </CardContent>
               </Card>
+              // Add this below the Location Card inside the Contact Information section
+{/* Google Map Embed */}
+<Card className="bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 transition-mystical">
+  <CardContent className="p-0">
+    <iframe
+      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.1234567890!2d87.987654321!3d26.583210987!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e5a1234567890%3A0xabcdef1234567890!2sJhapa%2C%20Nepal!5e0!3m2!1sen!2snp!4v1690000000000!5m2!1sen!2snp"
+      width="100%"
+      height="250"
+      style={{ border: 0 }}
+      allowFullScreen={false}
+      loading="lazy"
+      referrerPolicy="no-referrer-when-downgrade"
+      title="Office Location Map"
+      className="rounded-xl"
+    ></iframe>
+  </CardContent>
+</Card>
+
             </div>
           </div>
 

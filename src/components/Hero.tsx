@@ -13,9 +13,9 @@ const Hero = () => {
   return (
     <section 
       id="home" 
-      className="min-h-screen flex items-center justify-center relative overflow-hidden stars-bg"
+      className="min-h-screen flex items-center justify-center relative overflow-hidden"
       style={{
-        backgroundImage: `linear-gradient(rgba(34, 47, 84, 0.8), rgba(34, 47, 84, 0.9)), url(${heroImage})`,
+        backgroundImage: `linear-gradient(rgba(34, 47, 84, 0.85), rgba(34, 47, 84, 0.85)), url(${heroImage})`,
         backgroundSize: 'cover',
         backgroundPosition: 'center',
         backgroundAttachment: 'fixed'
@@ -24,14 +24,14 @@ const Hero = () => {
       <div className="container mx-auto px-4 text-center relative z-10">
         <div className="max-w-4xl mx-auto">
           {/* Badge */}
-          <div className="inline-flex items-center space-x-2 bg-card/20 backdrop-blur-sm rounded-full px-4 py-2 mb-6 border border-primary/20">
+          <div className="inline-flex items-center space-x-2 bg-card/30 backdrop-blur-sm rounded-full px-6 py-3 mb-6 border border-primary/20">
             <Star className="h-4 w-4 text-primary" />
             <span className="text-sm text-primary font-medium">President of Jhapa District, Nepal Jyotish Parishad</span>
           </div>
 
           {/* Main Headline */}
           <h1 className="text-4xl md:text-6xl lg:text-7xl font-bold text-foreground mb-6 leading-tight">
-            Astrologer <span className="gradient-golden bg-clip-text text-transparent">Jyotish Chetan Oli</span>
+            Astrologer <span className="text-primary">Jyotish Chetan Oli</span>
           </h1>
           
           {/* Sub-headline */}

@@ -1,4 +1,4 @@
-import { Facebook, Phone, MapPin, Star } from "lucide-react";
+import { Facebook, Phone, MapPin, Star, Mail } from "lucide-react";
 import logo from "@/assets/astrology-logo.jpg";
 
 const Footer = () => {
@@ -109,12 +109,16 @@ const Footer = () => {
                   onClick={handlePhoneCall}
                   className="text-muted-foreground hover:text-primary transition-mystical"
                 >
-                  +977-9814044138
+                  +977-9814044138/ 9824036543
                 </button>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-5 w-5 text-primary" />
                 <span className="text-muted-foreground">Jhapa District, Nepal</span>
+              </div>
+              <div className="flex items-center space-x-3">
+                <Mail className="h-5 w-5 text-primary" />
+                <span className="text-muted-foreground">contact@jyotishchetan.com</span>
               </div>
             </div>
 

@@ -1,12 +1,12 @@
 import { Card } from "@/components/ui/card";
 import { Badge } from "@/components/ui/badge";
 import { Eye } from "lucide-react";
-import officeImage from "@/assets/gallery-office-1.jpg";
-import consultationImage from "@/assets/gallery-consultation.jpg";
-import parishadImage from "@/assets/gallery-parishad.jpg";
-import booksImage from "@/assets/gallery-books.jpg";
-import weddingImage from "@/assets/gallery-wedding.jpg";
-import workshopImage from "@/assets/gallery-workshop.jpg";
+import officeImage from "@/assets/jyotish-chetan-oli.jpg";
+import consultationImage from "@/assets/jyotish-chetan-oli.jpg";
+import parishadImage from "@/assets/jyotish-chetan-oli.jpg";
+import booksImage from "@/assets/jyotish-chetan-oli.jpg";
+import weddingImage from "@/assets/jyotish-chetan-oli.jpg";
+import workshopImage from "@/assets/jyotish-chetan-oli.jpg";
 
 const Gallery = () => {
   const galleryItems = [

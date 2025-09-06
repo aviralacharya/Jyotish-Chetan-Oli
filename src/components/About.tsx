@@ -12,7 +12,7 @@ const About = () => {
             About Our Astrologer
           </Badge>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Meet <span className="gradient-golden bg-clip-text text-transparent">Jyotish Chetan Oli</span>
+            Meet <span className="text-primary">Jyotish Chetan Oli</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             A beacon of wisdom in the celestial arts, guiding souls through the cosmic tapestry of life

@@ -59,7 +59,7 @@ const Services = () => {
             Our Services
           </Badge>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Comprehensive <span className="gradient-golden bg-clip-text text-transparent">Astrological Services</span>
+            Comprehensive <span className="text-primary">Astrological Services</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Discover your cosmic blueprint with our authentic Vedic astrology services

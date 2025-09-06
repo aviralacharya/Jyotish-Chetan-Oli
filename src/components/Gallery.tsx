@@ -56,7 +56,7 @@ const Gallery = () => {
             Gallery
           </Badge>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Glimpses of <span className="gradient-golden bg-clip-text text-transparent">Our Journey</span>
+            Glimpses of <span className="text-primary">Our Journey</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Explore moments from our astrological practice, events, and client interactions

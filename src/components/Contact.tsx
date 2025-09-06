@@ -36,7 +36,7 @@ const Contact = () => {
             Contact Us
           </Badge>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Get in <span className="gradient-golden bg-clip-text text-transparent">Touch</span>
+            Get in <span className="text-primary">Touch</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Ready to discover your cosmic blueprint? Connect with us for authentic astrological guidance

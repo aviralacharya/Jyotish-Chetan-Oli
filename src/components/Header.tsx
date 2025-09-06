@@ -70,7 +70,7 @@ const Header = () => {
             <div className="hidden lg:flex items-center space-x-4 text-sm">
               <div className="flex items-center space-x-1 text-muted-foreground">
                 <Phone className="h-4 w-4" />
-                <span>9814044138</span>
+                <span>9814044138 | 9824036543</span>
               </div>
               <div className="flex items-center space-x-1 text-muted-foreground">
                 <MapPin className="h-4 w-4" />

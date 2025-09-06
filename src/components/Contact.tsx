@@ -36,7 +36,7 @@ const Contact = () => {
             Contact Us
           </Badge>
           <h2 className="text-4xl md:text-5xl font-bold text-foreground mb-6">
-            Get in <span className="text-primary">Touch</span>
+            Get in touch with the  <span className="text-primary">Best Jyotish Chetan Oli</span>
           </h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
             Ready to discover your cosmic blueprint? Connect with us for authentic astrological guidance
@@ -66,7 +66,7 @@ const Contact = () => {
                             className="bg-primary text-primary-foreground hover:bg-primary/90"
                           >
                             <Phone className="h-4 w-4 mr-2" />
-                            Call 9814044138
+                            Call 9814044138 | 9824036543
                           </Button>
                           <Button 
                             onClick={handleWhatsApp}
@@ -129,50 +129,26 @@ const Contact = () => {
               </div>
             </div>
 
-            {/* Social Media */}
+            {/* Google Map Embed */}
             <div>
-              {/* <h3 className="text-xl font-bold text-foreground mb-4">Follow Us</h3>
-              <Card className="bg-card/50 backdrop-blur-sm border-border/50">
+              <h3 className="text-2xl font-bold text-foreground mb-6">Our Location</h3>
+              <Card className="bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 transition-mystical">
                 <CardContent className="p-6">
-                  <div className="flex items-center space-x-4">
-                    <div className="p-3 bg-primary/10 rounded-xl">
-                      <Facebook className="h-6 w-6 text-primary" />
-                    </div>
-                    <div className="flex-1">
-                      <h4 className="font-semibold text-foreground mb-1">Facebook Page</h4>
-                      <p className="text-muted-foreground mb-3">Follow for daily insights and updates</p>
-                      <Button 
-                        onClick={handleFacebook}
-                        size="sm" 
-                        className="bg-primary text-primary-foreground hover:bg-primary/90"
-                      >
-                        <Facebook className="h-4 w-4 mr-2" />
-                        Visit Facebook Page
-                        <ExternalLink className="h-3 w-3 ml-2" />
-                      </Button>
-                    </div>
+                  <div className="overflow-hidden rounded-xl">
+                    <iframe
+                      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14272.775458898848!2d88.01262045444935!3d26.57815360425557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e5af03a9054d4d%3A0xd42be57f9517ca08!2sJyotish%20Chetan%20Oli!5e0!3m2!1sen!2snp!4v1757159483205!5m2!1sen!2snp"
+                      width="100%"
+                      height="300"
+                      style={{ border: 0 }}
+                      allowFullScreen={false}
+                      loading="lazy"
+                      referrerPolicy="no-referrer-when-downgrade"
+                      title="Office Location Map"
+                      className="rounded-xl"
+                    ></iframe>
                   </div>
                 </CardContent>
-                
-              </Card> */}
-              
-{/* Google Map Embed */}
-<Card className="bg-card/50 backdrop-blur-sm border-border/50 hover:border-primary/30 transition-mystical">
-  <CardContent className="p-0">
-    <iframe
-      src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d14272.775458898848!2d88.01262045444935!3d26.57815360425557!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39e5af03a9054d4d%3A0xd42be57f9517ca08!2sJyotish%20Chetan%20Oli!5e0!3m2!1sen!2snp!4v1757159483205!5m2!1sen!2snp"
-      width="100%"
-      height="300"
-      style={{ border: 0 }}
-      allowFullScreen={false}
-      loading="lazy"
-      referrerPolicy="no-referrer-when-downgrade"
-      title="Office Location Map"
-      className="rounded-xl"
-    ></iframe>
-  </CardContent>
-</Card>
-
+              </Card>
             </div>
           </div>
 
